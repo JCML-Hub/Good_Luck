@@ -1,0 +1,140 @@
+{
+    "root": {
+        "data": {
+            "id": "cvmwg87gg7k0",
+            "created": 1695127224004,
+            "text": "Good_Luck"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cvmwgjdkyf40",
+                    "created": 1695127248319,
+                    "text": "SetUp",
+                    "layout_mind_offset": {
+                        "x": 96,
+                        "y": -77
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cvmwhjv7w480",
+                    "created": 1695127327750,
+                    "text": "Timer Interrupt",
+                    "layout_right_offset": {
+                        "x": -5,
+                        "y": 266.5
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvmwlu119ag0",
+                            "created": 1695127663326,
+                            "text": "获取电机的转速"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvmwm3d8wi80",
+                            "created": 1695127683655,
+                            "text": "超声波模块的驱动"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvmwkbif0vs0",
+                    "created": 1695127544654,
+                    "text": "Loop",
+                    "layout_right_offset": {
+                        "x": 39,
+                        "y": -167.83333333333337
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvmwgn7oqds0",
+                            "created": 1695127256671,
+                            "text": "Motor Loop",
+                            "layout_mind_offset": {
+                                "x": 540,
+                                "y": 75
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvmwi8i8f4w0",
+                                    "created": 1695127381384,
+                                    "text": "手机端蓝牙串口接收获得速度"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvmwiilx8gw0",
+                                    "created": 1695127403375,
+                                    "text": "加入PID算法中形成左右两轮的速度闭环"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvmwjv27yx40",
+                                    "created": 1695127508846,
+                                    "text": "电机速度赋值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvmwkq0rei80",
+                            "created": 1695127576238,
+                            "text": "Senser Loop"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvmwlaflvog0",
+                                    "created": 1695127620671,
+                                    "text": "激光测距的",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvmwn890dpc0",
+                                    "created": 1695127772647,
+                                    "text": "电池电压的测量"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvmwmc525js0",
+                                    "created": 1695127702751,
+                                    "text": "RGB灯的效果"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-pink",
+    "version": "1.4.43"
+}
